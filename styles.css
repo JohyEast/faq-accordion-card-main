@@ -1,12 +1,32 @@
+* {
+ font-family: sans-serif;
+}
+
 .father {
  display: flex;
  width: 80vw;
  height: 60vh;
  justify-content: center;
  align-items: center;
+ margin-top: 20vh;
+ margin-left: 8vw;
+ background-color: white;
+ border-radius: 20px;
+}
+
+.img {
+ margin-right: 10rem;
+}
+.faq {
+ font-size: 2rem;
+ font-weight: 800;
 }
 
 .down {
  display: flex;
  justify-content: space-between;
+}
+
+button {
+ border: none;
 }
