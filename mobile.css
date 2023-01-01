@@ -17,8 +17,17 @@
   left: 50%;
   transform: translateX(-50%);
  }
-}
 
-.faq {
- text-align: center;
+ .questions {
+  width: auto;
+  padding: 2rem;
+ }
+ .faq {
+  text-align: center;
+ }
+
+ .down {
+  display: flex;
+  justify-content: space-between;
+ }
 }
