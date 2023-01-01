@@ -1,0 +1,24 @@
+@media (max-width: 1018px) {
+ .father {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  margin-top: 10rem;
+  position: relative;
+ }
+
+ .img {
+  height: 15rem;
+  width: 15rem;
+  position: absolute;
+  top: -9rem;
+  left: 50%;
+  transform: translateX(-50%);
+ }
+}
+
+.faq {
+ text-align: center;
+}
