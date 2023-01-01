@@ -32,4 +32,8 @@
   display: flex;
   justify-content: space-between;
  }
+
+ .down p {
+  width: 80%;
+ }
 }
