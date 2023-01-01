@@ -2,20 +2,35 @@
  font-family: sans-serif;
 }
 
+body {
+ background: linear-gradient(
+  180deg,
+  rgba(227, 1, 255, 1) 0%,
+  rgba(125, 3, 185, 1) 100%
+ );
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+}
+
 .father {
  display: flex;
  width: 80vw;
  height: 60vh;
+ max-width: 65rem;
  justify-content: center;
  align-items: center;
  margin-top: 20vh;
- margin-left: 8vw;
+ margin-left: 20vw;
  background-color: white;
  border-radius: 20px;
 }
+.questions {
+ width: 50%;
+}
 
 .img {
- margin-right: 10rem;
+ position: relative;
+ left: -5rem;
 }
 .faq {
  font-size: 2rem;
@@ -25,16 +40,23 @@
 .down {
  display: flex;
  justify-content: space-between;
+ flex-wrap: wrap;
 }
 
-button {
- border: none;
-}
+/* input radio de questions */
 
-#activar ~ .desplegable {
+.activar ~ .desplegable {
  display: none;
  overflow: hidden;
 }
-#activar:checked ~ .desplegable {
+.activar:checked ~ .desplegable {
  display: block;
+}
+
+.activar {
+ display: none;
+}
+
+.attribution {
+ margin-top: 3rem;
 }
