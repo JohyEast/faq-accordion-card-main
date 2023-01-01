@@ -30,3 +30,11 @@
 button {
  border: none;
 }
+
+#activar ~ .desplegable {
+ display: none;
+ overflow: hidden;
+}
+#activar:checked ~ .desplegable {
+ display: block;
+}
