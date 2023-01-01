@@ -10,6 +10,12 @@ body {
  );
  background-repeat: no-repeat;
  background-attachment: fixed;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin: 0;
+ height: 100vh;
 }
 
 .father {
@@ -19,8 +25,6 @@ body {
  max-width: 65rem;
  justify-content: center;
  align-items: center;
- margin-top: 20vh;
- margin-left: 20vw;
  background-color: white;
  border-radius: 20px;
 }
