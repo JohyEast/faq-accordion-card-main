@@ -21,8 +21,10 @@
  .questions {
   width: auto;
   padding: 2rem;
+  font-size: 14px;
  }
  .faq {
+  font-size: 28px;
   text-align: center;
  }
 
